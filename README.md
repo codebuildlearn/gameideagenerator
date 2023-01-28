@@ -1,6 +1,6 @@
 # Game Idea Generator
 
-This is the repository for the Game Idea Generator tool hosted at [https://www.codebuildlearn.com/tools/gameideageneartor](https://www.codebuildlearn.com/tools/gameideageneartor).
+This is the repository for the Game Idea Generator tool hosted at [https://www.codebuildlearn.com/tools/gameideagenerator](https://www.codebuildlearn.com/tools/gameideagenerator).
 
 ## Purpose
 
