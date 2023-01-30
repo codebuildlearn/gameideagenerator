@@ -4,7 +4,10 @@ title: Game Idea Generator
 ---
 <h2>Purpose</h2>
 <p>
-    Take the headache out of coming up with interesting new game ideas by letting the Game Idea Generator inspire your next game.  While than focusing on coming up with the best ideas for your first games, new developers should focus on making and publishing as many complete games as possible.
+    Rather than focusing on coming up with the best ideas for your first games, new game developers 
+    should focus on making and publishing as many complete games as possible. Take the headache out 
+    of coming up with interesting new game ideas by letting the Game Idea Generator inspire
+    your next game.    
 </p>
 <h2>Game Idea Generator Tool</h2>
 <div id="gameideageneratorcontainer">
@@ -27,6 +30,61 @@ title: Game Idea Generator
         </div>
     </form>
 </div>
+<h2>How To Use</h2>
+<p>Click the generate button to generate new ideas.  Click the Show Options selection to show all the generation options.  You may remove any of the constraints from the 3 constraint types: Genre, Character, &amp; Game Mechanic.  You may change the number of Genres that are generated to inspire hybrid Genres if that is something that you are interested in.</p>
+<h2>Future Changes</h2>
+<p>If you find this tool interesting, check back soon as this tool is still a work in progress and being actively developed.  Here is a list of currently planned future changes:</p>
+<ul>
+    <li>
+        All constraint types should allow multiple constraints to be generated (i.e. more than one character or game mechanic).
+    </li>
+    <li>
+        The tool should be designed with mobile first in mind.
+    </li>
+    <li>
+        The tool should remember your option choices so that you don't have to set your prefered options every time you use the tool.
+    </li>
+    <li>
+        Create either a "shopping cart" interface to mark ideas to go over the best of your generated ideas at a later time or allow 
+        the user to generate more than one set of ideas at a time so that they have a nice way to get a number of ideas in front of 
+        them at one time to make finding fun ideas a fast process.  Potentially the best solution is combination of both of these 
+        features assuming it does not add too much clutter to the tool interface.
+    </li>
+    <li>
+        Add the ability to "include" and "exclude" mechanisms for the various constraint types to all them to include or exclude specific
+        constraints from onther constraint types.  A specific constraint can either implement an include or exclude list, but not both.
+        There needs to be the ability to dictate the appropriate pairings for each two constraint type combinations: Genre/Character, 
+        Genre/Game Mechanic, &amp; Character/Game Mechanic.  For each of these pairings, the include/exclude list should be implemented
+        in one direction only so that maintaining these lists is not too cumbersome and is obvious where changes need to be made.  For instance,
+        potentially for the Genre/Character pairing, the Genre records would either contain an "includeCharacters", "excludeCharacters", or
+        neither if all Characters are applicable to the Genre.  The Character records though, would not contain this information about which 
+        Genres are included/excluded, because that information is found on the Genres.
+    </li>
+    <li>
+        Implement a form of analytics to track how often people make specific modifications to options when generating ideas.  As time goes,
+        if we find the community members who use the tool have a high likelihood of making the same modifications to options, such as custom
+        include/exclude list changes, we can use this information to make the default behavior of the tool to better represent the way people
+        prefer to use it.
+    </li>
+    <li>
+        Implement the ability for users to share interesting combinations with the community through tagging.  Recently tagged combinations 
+        should show up on a secondary page.  Potentially allow users to comment on what they find interesting about the combination, but that
+        would first require site users to be able to login to the site, because ownership of the comments would be needed to prevent spam.
+        The commenting aspect of this feature may not be worth the effort considering the fact that Code Build Learn should always be an inviting
+        place for developers to visit and learn, and allowing community comments on pages may require an outsized amount of moderation to 
+        maintain the appropriate level of professionalism and civility on the site.
+    </li>
+    <li>
+        Improvements to the tool's UI should be made to make the tool as beautiful as it is useful to encourage use.
+    </li>
+</ul>
+<h2>Feedback</h2>
+<p>
+    We welcome all feedback on how to make this tool as useful as possible to the game development community.  Any suggestions should be 
+    directed to the <a href="https://github.com/codebuildlearn/gameideagenerator/issues">GitHub issues log for this tool</a> and create a 
+    GitHub issue to discuss your suggestion.  Please keep in mind that only suggestions that improve the tool for the majority of users
+    will be considered.
+</p>
 <link href="/tools/gameideagenerator/css/gameideagenerator.css" rel="stylesheet">
 <link href="/tools/gameideagenerator/css/gameideagenerator.genre.css" rel="stylesheet">
 <link href="/tools/gameideagenerator/css/gameideagenerator.character.css" rel="stylesheet">
