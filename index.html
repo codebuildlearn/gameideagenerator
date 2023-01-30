@@ -11,15 +11,11 @@ title: Game Idea Generator
     <form id="gig_form">
         <button id="gig_generate_button" type="button" onclick="gig_generate_button_click()">Generate</button>
         <label for="gig_genre" id="gig_genre_label">Genre</label>
-        <label id="gig_genre" name="gig_genre"></label>
+        <div id="gig_genre" name="gig_genre"></div>
         <label for="gig_character" id="gig_character_label">Character</label>
         <label id="gig_character" name="gig_character"></label>
         <label for="gig_game_mechanic" id="gig_game_mechanic_label">Game Mechanic</label>
-        <label id="gig_game_mechanic" name="gig_game_mechanic"></label> 
-        <label for="gig_objective" id="gig_objective_label">Objective / Obstacle</label>
-        <label id="gig_objective" name="gig_objective"></label>     
-        <label for="gig_location" id="gig_location_label">Location / Setting</label>
-        <label id="gig_location" name="gig_location"></label>     
+        <label id="gig_game_mechanic" name="gig_game_mechanic"></label>       
         <div id="gig_show_hide_advanced_container">
             <input type="checkbox" id="gig_show_hide_advanced" name="gig_show_hide_advanced" onchange="handle_show_hide_advanced_click()">
             <label for="gig_show_hide_advanced">Show Options</label>            
@@ -27,9 +23,16 @@ title: Game Idea Generator
         <div id="gig_advanced_options">
             <fieldset id="gig_genre_list"></fieldset>
             <fieldset id="gig_character_list"></fieldset>
+            <fieldset id="gig_game_mechanic_list"></fieldset>
         </div>
     </form>
 </div>
 <link href="/tools/gameideagenerator/css/gameideagenerator.css" rel="stylesheet">
+<link href="/tools/gameideagenerator/css/gameideagenerator.genre.css" rel="stylesheet">
+<link href="/tools/gameideagenerator/css/gameideagenerator.character.css" rel="stylesheet">
+<link href="/tools/gameideagenerator/css/gameideagenerator.gamemechanic.css" rel="stylesheet">
 <script src="/tools/gameideagenerator/js/gameideageneratordata.js"></script>
+<script src="/tools/gameideagenerator/js/gameideagenerator.genre.js"></script>
+<script src="/tools/gameideagenerator/js/gameideagenerator.character.js"></script>
+<script src="/tools/gameideagenerator/js/gameideagenerator.gamemechanic.js"></script>
 <script src="/tools/gameideagenerator/js/gameideagenerator.js"></script>

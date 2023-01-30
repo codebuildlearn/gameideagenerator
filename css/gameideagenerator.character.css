@@ -1,0 +1,40 @@
+#gig_character_list {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 24px;
+    border-radius: 24px;
+    padding: 24px;   
+}
+
+#character_list_global_container {
+    grid-row: 1;
+}
+
+#character_list_container {
+    grid-row: 2;
+    columns: 10em;
+}
+
+#character_list_global_label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.character_item {
+    display: grid;
+    grid-template-columns: auto 1em auto 1fr;
+    row-gap: 9px;
+    padding: 12px;
+}
+
+.character_filter {
+    grid-column: 1;
+    position: relative;
+    vertical-align: middle;
+}
+
+.character_label {
+    grid-column: 3;
+    position: relative;
+    vertical-align: middle;
+}

@@ -366,3 +366,139 @@ const character_list = [
         "name": "Zombie",
     },
 ];
+
+const GAME_MECHANCIC_LIST = [
+    {
+        "name": "Teleportation",
+        "description": "The player can teleport to different locations"
+    },
+    {
+        "name": "Time Travel",
+        "description": "The player can travel through time"
+    },
+    {
+        "name": "Building",
+        "description": "The player must build structures to use in the game"
+    },
+    {
+        "name": "Crafting",
+        "description": "The player must craft items to use in the game"
+    },
+    {
+        "name": "Increasing Difficulty",
+        "description": "The game becomes more difficult as the player progresses"
+    },
+    {
+        "name": "Time Limit",
+        "description": "The player must complete the game within a certain time limit"
+    },
+    {
+        "name": "Resource Management",
+        "description": "The player must manage resources strategically"
+    },
+    {
+        "name": "Resource Collection",
+        "description": "The player must collect resources to use in the game"
+    },
+    {
+        "name": "Spinning Plates",
+        "description": "The player must manage multiple tasks at once"
+    },
+    {
+        "name": "Avoiding Unkillable Entities",
+        "description": "The player must avoid unkillable objects or enemies"
+    },
+    {
+        "name": "Instant Death",
+        "description": "There is something that can kill the player instantly, such as a spikes, bottomless pit, lava"
+    },
+    {
+        "name": "No Win Condition",
+        "description": "There is no win condition, the player must just survive"
+    },
+    {
+        "name": "Memory Test",
+        "description": "Mechanic that tests the player's ability to memorize things"
+    },
+    {
+        "name": "Constant Movement",
+        "description": "The player constantly moves forward"
+    },
+    {
+        "name": "Forced Forward Progression",
+        "description": "The camera constantly moves forward forcing the player to react to approaching obstacles and enemies at a predetermined speed",
+    },
+    {
+        "name": "Block Puzzle",
+        "description": "Objects of a standard size must be moved around in a specific way",        
+    },
+    {
+        "name": "Block Enemy Path",
+        "description": "The player must block the path of enemies to prevent them from reaching the their goal",
+    },
+    {
+        "name": "Disinformation",
+        "description": "The player must use disinformation to trick enemies",
+    },
+    {
+        "name": "Switch Up",
+        "description": "The player must switch between different modes, characters, or weapons to effectively fight or move through the game",
+    },
+    {
+        "name": "Dexterity Test",
+        "description": "Mechanic that tests the player's ability to perform precise actions",
+    },
+    {
+        "name": "Life Counter",
+        "description": "The player has a limited number of lives",
+    },
+    {
+        "name": "Auction/Bidding",
+        "description": "The player must bid on items or services",
+    },
+    {
+        "name": "Hunger",
+        "description": "The player must collect food and eat to survive",
+    },
+    {
+        "name": "Corpse Retrieval",
+        "description": "The player loses all possessions when they die and must retrieve them from their corpse",
+    },
+    {
+        "name": "Power Ups",
+        "description": "The player can collect power ups to temporarily increase their abilities",
+    },
+    {
+        "name": "Action Points",
+        "description": "Each action has a point cost requiring the player to choose which limited set of actions to perform",
+    },
+    {
+        "name": "Card-Based",
+        "description": "A collection of cards are used to perform actions"
+    },
+    {
+        "name": "Combo Moves",
+        "description": "The player can perform a specific combination of actions to perform a powerful attack or move"
+    },
+    {
+        "name": "Terrible Controls",
+        "description": "The controls are difficult to use on purpose as a game mechanic"
+    },
+    {
+        "name": "Rocket Propelled",
+        "description": "Movement and attacks are combined in the same mechanic such that the attacks are also a way the player can affect their movement",
+    },
+    {
+        "name": "Grappling Hook",
+        "description": "The player can traverse the world with a grappling hook",
+    },
+    {
+        "name": "Yin Yang",
+        "description": "The player must balance two opposing forces to progress",
+    },
+    {
+        "name": "No Pain No Gain",
+        "description": "The player must endure pain to gain something",
+    },
+];
+

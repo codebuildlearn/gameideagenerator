@@ -1,0 +1,46 @@
+#gig_game_mechanic_list {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 24px;
+    border-radius: 24px;
+    padding: 24px;     
+}
+
+#game_mechanic_list_global_container {
+    grid-row: 1;
+}
+
+#game_mechanic_list_container {
+    grid-row: 2;
+    columns: 20em;
+}
+
+#game_mechanic_list_global_label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.game_mechanic_item {
+    display: grid;
+    grid-template-columns: auto 1em auto 1em auto 1fr;
+    row-gap: 9px;
+    padding: 12px;
+}
+
+.game_mechanic_filter {
+    grid-column: 1;
+    position: relative;
+    vertical-align: middle;
+}
+
+.game_mechanic_label {
+    grid-column: 3;
+    position: relative;
+    vertical-align: middle;
+}
+
+.game_mechanic_hint {
+    grid-column: 5;
+    position: relative;
+    vertical-align: middle;
+}

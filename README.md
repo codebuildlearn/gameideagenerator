@@ -12,15 +12,13 @@ When someone first sets out to become a game developer, one of the commonly reco
 
 ## How Does It Work
 
-If you haven't tried it already, the best way to understand the tool is just to try it out at [https://www.codebuildlearn.com/tools/gameideageneartor](https://www.codebuildlearn.com/tools/gameideageneartor).  This simple **Game Idea Generator** tool works by randomly picking these 5 different constraints for your game:
+If you haven't tried it already, the best way to understand the tool is just to try it out at [https://www.codebuildlearn.com/tools/gameideageneartor](https://www.codebuildlearn.com/tools/gameideageneartor).  This simple **Game Idea Generator** tool works by randomly picking these 3 different constraints for your game:
 
 1. Genre
 2. Character
 3. Game Mechanic
-4. Objective / Obstacle
-5. Location / Setting
 
-You are able to have the tool choose all 4 of these constraints at random, or any combination of constraints if you would like to decide on of these characteristics yourself, such as the genre.  You are also able to remove any options from these 4 categories from being chosen if that option is not one you would like to be a potentially selected random choice.  For instance, if you plan to only make a 2D game, you may choose to remove First Person Shooter from the potential **Genre** options as FPS games are not typically made in 2D.  The default is to have one of each type of constraint, but you may find some very interesting ideas when you increase the count of some of the constraints.  Because of this,the interface allows you to increase the constraint count for each different game constraint type, which will cause multiple constraints to be generated for that type.  Set the **Genre** constraint count to 2 or more to have the tool generate hybrid genre ideas.  Increase the constraint count for **Character** to inspire unique story and mechanic ideas related to multiple main characters being used in some sort of combination.  Increase the constraint count on **Game Mechanic** to discover unique game mechanic combinations.
+You are able to have the tool choose all 4 of these constraints at random, or any combination of constraints if you would like to decide on of these characteristics yourself, such as the genre.  You are also able to remove any options from these 3 categories from being chosen if that option is not one you would like to be a potentially selected random choice.  The default is to have one of each type of constraint, but you may find some very interesting ideas when you increase the count of some of the constraints.  Because of this, the interface allows you to increase the constraint count for each different game constraint type, which will cause multiple constraints to be generated for that type.  Set the **Genre** constraint count to 2 or more to have the tool generate hybrid genre ideas.  Increase the constraint count for **Character** to inspire unique story and mechanic ideas related to multiple main characters being used in some sort of combination.  Increase the constraint count on **Game Mechanic** to discover unique game mechanic combinations.
 
 ## Feedback
 
