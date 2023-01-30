@@ -1,1 +1,35 @@
-TEST GAME IDEA GENERATOR
+---
+layout: default
+title: Game Idea Generator
+---
+<h2>Purpose</h2>
+<p>
+    Take the headache out of coming up with interesting new game ideas by letting the Game Idea Generator inspire your next game.  While than focusing on coming up with the best ideas for your first games, new developers should focus on making and publishing as many complete games as possible.
+</p>
+<h2>Game Idea Generator Tool</h2>
+<div id="gameideageneratorcontainer">
+    <form id="gig_form">
+        <button id="gig_generate_button" type="button" onclick="gig_generate_button_click()">Generate</button>
+        <label for="gig_genre" id="gig_genre_label">Genre</label>
+        <label id="gig_genre" name="gig_genre"></label>
+        <label for="gig_character" id="gig_character_label">Character</label>
+        <label id="gig_character" name="gig_character"></label>
+        <label for="gig_game_mechanic" id="gig_game_mechanic_label">Game Mechanic</label>
+        <label id="gig_game_mechanic" name="gig_game_mechanic"></label> 
+        <label for="gig_objective" id="gig_objective_label">Objective / Obstacle</label>
+        <label id="gig_objective" name="gig_objective"></label>     
+        <label for="gig_location" id="gig_location_label">Location / Setting</label>
+        <label id="gig_location" name="gig_location"></label>     
+        <div id="gig_show_hide_advanced_container">
+            <input type="checkbox" id="gig_show_hide_advanced" name="gig_show_hide_advanced" onchange="handle_show_hide_advanced_click()">
+            <label for="gig_show_hide_advanced">Show Options</label>            
+        </div>
+        <div id="gig_advanced_options">
+            <fieldset id="gig_genre_list"></fieldset>
+            <fieldset id="gig_character_list"></fieldset>
+        </div>
+    </form>
+</div>
+<link href="/tools/gameideagenerator/css/gameideagenerator.css" rel="stylesheet">
+<script src="/tools/gameideagenerator/js/gameideageneratordata.js"></script>
+<script src="/tools/gameideagenerator/js/gameideagenerator.js"></script>
